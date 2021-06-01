@@ -1,6 +1,5 @@
 --// CREDITS TO BEREZAA FOR MONEY LIB !
 local MoneyLib = {}
-local MoneyLib = {}
 MoneyLib.Suffixes = {}
 MoneyLib.Suffixes[1] = "K"
 MoneyLib.Suffixes[2] = "M"
@@ -155,3 +154,4 @@ MoneyLib.ShortToLong = function(MoneyShort)
 	MoneyLib.CachedShorts[MoneyShort] = result
 	return result
 end
+return MoneyLib
